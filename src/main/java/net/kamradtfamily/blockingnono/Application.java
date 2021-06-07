@@ -21,18 +21,21 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package net.kamradtfamily.readnews;
+package net.kamradtfamily.blockingnono;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  *
  * @author randalkamradt
  */
+@Slf4j
 @SpringBootApplication
 public class Application {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
 }
